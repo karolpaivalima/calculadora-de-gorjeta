@@ -6,17 +6,17 @@
 }
 
 :root {
-    --green-100: #f3f9fa;
-    --green-200: #c5e4e7;
-    --green-300: #9EBBBD;
-    --green-400: #7F9D9F;
-    --green-500: #5E7A7D;
-    --green-600: #547878;
-    --green-700: #3D6666;
-    --green-800: #00474B;
-    --light-green: #26C2AE;
+    --green-100: #F6F2FF;
+    --green-200: #DDD1F5;
+    --green-300: #C2B0E8;
+    --green-400: #A18BCF;
+    --green-500: #836DB3;
+    --green-600: #6C5799;
+    --green-700: #56427A;
+    --green-800: #2F1B4D;
+    --light-green: #B388FF;
     --white: #FFFFFF;
-    --green: #9FE8DF;
+    --green: #D8C2FF;
     --danger: #e17457;
 }
 
@@ -84,7 +84,7 @@ main {
 .pessoas:has(input:focus) .input-box,
 .pessoas:has(input:hover) .input-box,
 .gorjeta #outra:focus,
-.gorjeta #outra:hover{
+.gorjeta #outra:hover {
     outline: 2px solid var(--light-green);
     cursor: pointer;
 }
@@ -109,7 +109,7 @@ main {
     color: var(--white);
 }
 
-.gorjeta .botao-ativo{
+.gorjeta .botao-ativo {
     background-color: var(--light-green);
     color: var(--green-800);
 }
@@ -130,13 +130,13 @@ main {
     color: var(--green-300);
 }
 
-.pessoas .textos{
+.pessoas .textos {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.pessoas #erro-div{
+.pessoas #erro-div {
     outline: 2px solid var(--danger);
 }
 
